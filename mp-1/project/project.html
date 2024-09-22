@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Tiffany's Online Résumé</title>
+    <link rel="stylesheet" href="project.css"> <!-- Link to CSS file -->
+
+    <!-- Embedded Google font-->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <h1>Projects</h1>
+    <p>An overview of my key projects, including individual and group collaborations.</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="/Users/tiffanychen/Documents/FALL2024/cs391/mp-1/home/home.html">Home</a></li>
+        <li><a href="/Users/tiffanychen/Documents/FALL2024/cs391/mp-1/education/education.html">Education</a></li>
+        <li><a href="/Users/tiffanychen/Documents/FALL2024/cs391/mp-1/employment/employment.html">Work Experience</a></li>
+        <li><a href="/Users/tiffanychen/Documents/FALL2024/cs391/mp-1/reference/reference.html">References</a></li>
+        <li><a href="/Users/tiffanychen/Documents/FALL2024/cs391/mp-1/project/project.html"class="active">Project</a></li>
+        <li><a href="/Users/tiffanychen/Documents/FALL2024/cs391/mp-1/extracurricular/extracurricular.html">Extracurricular</a></li>
+    </ul>
+</nav>
+
+<main>
+    <!-- Calculator Project: -->
+    <section id="calculator">
+        <h2>Calculator</h2>
+        <!-- <p>Choose an operation for result</p> -->
+    
+        <!-- Input fields for numbers -->
+        <input type="text" id="first-number" placeholder="Enter first number">
+        <input type="text" id="second-number" placeholder="Enter second number">
+    
+        <!-- Buttons for operations -->
+        <div class="buttons">
+            <button onclick="add()">+</button>
+            <button onclick="subtract()">-</button>
+            <button onclick="multiply()">*</button>
+            <button onclick="divide()">/</button>
+            <button onclick="power()">^</button>
+            <button onclick="clearFields()">Clear</button>
+        </div>
+    
+        <!-- Output for the result -->
+        <h3 id="output"></h3>
+    </section>
+    
+
+    <!-- CS411 Project Description -->
+    <section class="project">
+        <h2>Spotify Playlist Recommendation System</h2>
+        <p><strong>Group Project</strong> | <strong>Role:</strong> Front-End Developer</p>
+        <p><strong>Technology Stack:</strong> HTML, CSS, JavaScript, Spotify Web API</p>
+        <p><strong>GitHub Link:</strong> https://github.com/JordanEspinal17/CS411</p>
+        <!-- <p><strong>Timeframe:</strong> </p> -->
+
+        <h3>Project Overview:</h3>
+        <p>
+            This project involved building a web application that leverages the Spotify Web API to generate song recommendations and playlists based on a movie. The system interacts with Spotify’s vast music database, allowing users to receive song suggestions tailored to their taste. The goal of the project was to improve the music discovery experience by creating dynamic playlists or song suggestions.
+        </p>
+
+        <h3>My Role:</h3>
+        <p>
+            I was responsible for developing the front-end of the application, ensuring that the user experience was smooth, intuitive, and visually appealing. My key responsibilities included:
+        </p>
+        <ul>
+            <li>Designing the layout and UI components using HTML and CSS to create a user-friendly experience across devices.</li>
+            <li>Implementing responsive web design techniques to ensure compatibility across different screen sizes (desktop, tablet, mobile).</li>
+            <li>Collaborating with the back-end team to integrate the Spotify Web API into the front-end using JavaScript, enabling real-time song recommendations and playlist creation.</li>
+            <li>Developing interactive features, such as buttons for playlist generation, track selection, and playlist saving, using JavaScript.</li>
+            <li>Ensuring the interface was visually engaging and user-friendly by incorporating animations, hover effects, and clear navigation cues.</li>
+        </ul>
+
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Tiffany Chen | <a href="/Users/tiffanychen/Documents/FALL2024/cs391/mp-1/credits/credits.html">All Rights Reserved</a></p>
+</footer>
+
+<script src="project.js"></script> <!-- Link to JavaScript file -->
+</body>
+</html>
