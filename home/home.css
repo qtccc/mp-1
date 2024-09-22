@@ -1,0 +1,124 @@
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Embedded code for Google font: merriweather */
+.merriweather-regular {
+    font-family: "Merriweather", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .merriweather-bold {
+    font-family: "Merriweather", system-ui;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .merriweather-light-italic {
+    font-family: "Merriweather", system-ui;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+body {
+    font-family: "Merriweather", system-ui;
+}
+
+
+header, nav, main, footer {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+/* Header styling */
+header {
+    background-color: #b8d8be;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation bar styling */
+nav {
+    text-align: center; /* Center-aligns the content inside the nav */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #b8d8be;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+/* Default styles for screens larger than 750px (desktop) */
+
+
+/* Main Content Styling */
+main {
+    width: 70%; /* Main content takes up 70% of parent width by default */
+    margin: 0 auto; /* Center the main content */
+    font-size: calc(12px + .5vw);
+    line-height: 1.6;
+}
+
+/* Style for the image */
+#image {
+    display: block;
+    max-width: 45%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for mobile devices (max-width: 750px) */
+@media screen and (max-width: 750px) {
+    main {
+        text-align: center;
+    }
+}
+
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background-color: #ddd;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Media Query: For screens 750px or smaller (mobile-first) */
+@media screen and (max-width: 750px) {
+    header {
+        text-align: center; /* Center the header content on small screens */
+    }
+
+    main {
+        width: 100%; /* Make the main content take full width of the parent */
+        margin: 0 auto; /* Center the content */
+    }
+}
