@@ -1,0 +1,113 @@
+/* General page styling */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Embedded code for Google font: merriweather */
+.merriweather-regular {
+    font-family: "Merriweather", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .merriweather-bold {
+    font-family: "Merriweather", system-ui;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .merriweather-light-italic {
+    font-family: "Merriweather", system-ui;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+body {
+    font-family: "Merriweather", system-ui;
+}
+
+header, nav, main, footer {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+/* Header styling */
+header {
+    background-color: #b8d8be;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation bar styling */
+nav {
+    text-align: center; /* Center-aligns the content inside the nav */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #b8d8be;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Main section styling */
+main {
+    width: 70%; /* By default, use 70% width on larger screens */
+    margin: 0 auto;
+    font-size: calc(14px + 1vw);
+}
+
+.reference {
+    margin-bottom: 30px;
+}
+
+.reference h2 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: calc(10px + 1vw);
+}
+
+.reference p {
+    font-size: calc(4px + 1vw);
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background-color: #ddd;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: calc(12px + .3vw);
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 750px) {
+    main {
+        width: 100%;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    body {
+        font-size: calc(12px + .3vw); /* Reduce font size on smaller screens */
+    }
+}
