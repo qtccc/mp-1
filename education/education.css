@@ -85,7 +85,7 @@ main {
     width: 80px; /* Adjust the width of the logo */
     height: auto; /* Maintain aspect ratio */
     margin-right: 20px; /* Space between the logo and the school info */
-    border-radius: 8px; /* Optional: round the corners of the logo */
+    border-radius: 8px; /* Rounded the corners of the logo */
 }
 
 /* School info styling */
