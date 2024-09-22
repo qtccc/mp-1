@@ -1,1 +1,0 @@
-console.log("Extracurricular page loaded successfully!");
